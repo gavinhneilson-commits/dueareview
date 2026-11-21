@@ -1,0 +1,5 @@
+# Copy to .dev.vars for `npx wrangler dev` / preview. Same values as .env.example.
+NEXT_PUBLIC_SITE_URL=http://localhost:8787
+NEXT_PUBLIC_SUPABASE_URL=
+NEXT_PUBLIC_SUPABASE_ANON_KEY=
+BUTTONDOWN_API_KEY=

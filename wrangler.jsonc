@@ -1,0 +1,11 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "dueareview",
+  "main": ".open-next/worker.js",
+  "compatibility_date": "2025-09-01",
+  "compatibility_flags": ["nodejs_compat", "global_fetch_strictly_public"],
+  "assets": { "directory": ".open-next/assets", "binding": "ASSETS" },
+  "observability": { "enabled": true }
+  // Custom domain: add dueareview.com in the Cloudflare dashboard → Workers → dueareview → Settings → Domains & Routes.
+  // For persistent ISR caching across deploys, add an R2 incremental cache (see README → "Cloudflare caching").
+}
